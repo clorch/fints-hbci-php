@@ -165,7 +165,7 @@ class MT940
         // verwendungszweck
         $description = '';
         for ($i = 20; $i <= 29; $i++) {
-            $description .= $prepared[$i];
+            $description .= $prepared[$i] . "\n";
         }
 
         $description2 = '';
